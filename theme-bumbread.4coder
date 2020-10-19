@@ -17,13 +17,11 @@ defcolor_comment          		 = 0xFF555555;
 defcolor_comment_pop       		= {0xFF00C030, 0xFFF00000};
 
 defcolor_keyword							 = 0xFFffffff;
-defcolor_type_name				 		= 0xFFffffff;
 defcolor_str_constant 		 		= 0xFFa8a59e;
 defcolor_int_constant					= 0xFFdddddd;
 defcolor_special_character 		= 0xFFFF0000;
 defcolor_ghost_character	 		= 0xFF46494D;
 
-defcolor_function_name		 		= defcolor_text_default;
 defcolor_preproc							 = defcolor_str_constant;
 defcolor_char_constant     		= defcolor_str_constant;
 defcolor_float_constant    		= defcolor_int_constant;
@@ -45,21 +43,18 @@ defcolor_pop2              		= 0xFFFF200D;
 defcolor_back_cycle = {
 	0xff1a1a1a, 0xff0d0d0d, 0xff000000
 };
-defcolor_fore_cycle = {
-	0xffffea03,
-	0xffffcb13, 
-	0xffffa828,
-	0xffff724d, 
-	0xffff4473,
-	0xffd910b8, 
-	0xffa800f8, 
-	0xff7512ff, 
-	0xff2e64ff, 
-	0xff1b85ff, 
+defcolor_text_cycle = {
+	0xFFF00000, 
+	0xFF00C030, 
+	0xFF0040F0, 
+	0xFFB0B000
 };
-defcolor_text_cycle = {0xFFF00000, 0xFF00C030, 0xFF0040F0, 0xFFB0B000};
 
-defcolor_line_numbers_back = 0xFF000000;
-defcolor_line_numbers_text = 0xFF6F817E;
+defcolor_line_numbers_back     = 0xFF000000;
+defcolor_line_numbers_text     = 0xFF6F817E;
+
+//NOTE(bumbread): these are custom colors
+defcolor_function_name		 		      = defcolor_text_default;
+defcolor_type_name				 		      = 0xFFffffff;
 defcolor_line_numbers_text_highlight = 0xFFeeeeee;
-defcolor_last = 0;
+
