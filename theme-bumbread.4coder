@@ -40,15 +40,8 @@ defcolor_base                        = 0xFF000000;
 defcolor_pop1                        = 0xFF1BFF0C;
 defcolor_pop2                        = 0xFFFF200D;
 
-defcolor_back_cycle = {
-	0xff1a1a1a, 0xff0d0d0d, 0xff000000
-};
-defcolor_text_cycle = {
-	0xFFF00000, 
-	0xFF00C030, 
-	0xFF0040F0, 
-	0xFFB0B000
-};
+defcolor_back_cycle                  = { 0xff1a1a1a, 0xff0d0d0d, 0xff000000 };
+defcolor_text_cycle                  = { 0xFFF00000, 0xFF00C030, 0xFF0040F0, 0xFFB0B000 };
 
 defcolor_line_numbers_back           = 0xFF000000;
 defcolor_line_numbers_text           = 0xFF6F817E;
