@@ -57,4 +57,4 @@ fleury_color_plot_cycle            = { 0xFF03D3FC, 0xFF22B80B, 0xFFF0BB0C, 0xFFF
 fleury_color_token_highlight       = 0x88F4F0F8;
 fleury_color_token_minor_highlight = 0x44F4F0F8;
 fleury_color_comment_user_name     = 0xFFFF79AA;
-fleury_color_error_annotation      = 0xFFFF5555;
+fleury_color_error_annotation      = 0xFFFCE9032;
